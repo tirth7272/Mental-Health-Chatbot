@@ -22,10 +22,3 @@ Streamlit-based Mental Health Chatbot using **PyTorch** and **NLTK**. It recogni
 - **Other Libraries:** NumPy, Random  
 
 ---
-
-## 📂 Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/Mental-Health-Chatbot.git
-   cd Mental-Health-Chatbot
