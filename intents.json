@@ -1,0 +1,314 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day",
+        "Greetings",
+        "How are you?",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I support you today?",
+        "Hi there! How are you feeling?",
+        "Hey! What can I do for you?",
+        "Hi! How can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later",
+        "Take care",
+        "Until next time"
+      ],
+      "responses": [
+        "Take care. Feel free to come back anytime.",
+        "Goodbye! Remember to take care of yourself.",
+        "See you later. Take care.",
+        "Bye! Stay safe and take care."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "That's helpful",
+        "Thank's a lot",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help.",
+        "Anytime!",
+        "I'm here to assist you."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I'm feeling anxious",
+        "I'm stressed out",
+        "Feeling overwhelmed",
+        "Can't sleep",
+        "Depressed",
+        "Lonely",
+        "Need someone to talk to",
+        "Feeling down",
+        "Experiencing mood swings",
+        "Dealing with grief",
+        "Struggling with PTSD",
+        "Facing panic attacks",
+        "Having intrusive thoughts",
+        "Feeling hopeless",
+        "Experiencing burnout",
+        "Feeling disconnected",
+        "Dealing with trauma",
+        "Feeling unmotivated",
+        "Dealing with addiction",
+        "Struggling with OCD",
+        "Feeling restless",
+        "Experiencing paranoia",
+        "Feeling irritable",
+        "Feeling numb",
+        "Struggling with body image",
+        "Experiencing identity crisis",
+        "Feeling guilty",
+        "Having trouble concentrating"
+      ],
+      "responses": [
+        "I'm here to listen. Please tell me more about what you're going through.",
+        "It's okay to feel this way. I'm here to support you.",
+        "Many people struggle with similar feelings. You're not alone.",
+        "Would you like to talk about what's been bothering you?",
+        "Remember, it's okay to seek help when you need it.",
+        "Taking the first step to talk about your feelings is brave."
+      ]
+    },
+    {
+      "tag": "coping_strategies",
+      "patterns": [
+        "How can I cope with stress?",
+        "Tips for managing anxiety",
+        "Ways to improve mental health",
+        "Self-care tips",
+        "How to relax",
+        "Methods for calming down",
+        "Techniques for stress relief",
+        "Ways to boost mood",
+        "Improving emotional wellbeing",
+        "How to deal with anger",
+        "Coping with loneliness",
+        "Managing work stress",
+        "Overcoming social anxiety",
+        "Handling relationship stress",
+        "Coping with academic pressure",
+        "Dealing with family conflict",
+        "Strategies for self-compassion",
+        "Tips for mindfulness practice",
+        "Managing caregiver stress",
+        "Dealing with financial stress",
+        "Coping with chronic illness",
+        "Techniques for improving sleep"
+      ],
+      "responses": [
+        "Practice deep breathing exercises daily to manage stress.",
+        "Engage in regular physical activity to boost your mood.",
+        "Try mindfulness meditation to calm your mind.",
+        "Keep a gratitude journal to focus on positive aspects of life.",
+        "Connect with loved ones for emotional support.",
+        "Set aside time for activities you enjoy.",
+        "Recognize your triggers and develop coping strategies.",
+        "Practice relaxation techniques such as progressive muscle relaxation.",
+        "Maintain a healthy lifestyle with balanced nutrition and adequate sleep.",
+        "Seek professional help when needed to explore therapy options.",
+        "Learn to assertively communicate your needs and boundaries.",
+        "Set realistic goals and break tasks into manageable steps.",
+        "Engage in hobbies or creative activities that bring you joy.",
+        "Volunteer or help others to gain a sense of purpose and fulfillment.",
+        "Limit exposure to stressful situations and prioritize self-care.",
+        "Use humor and laughter as a natural stress reliever.",
+        "Stay organized and manage time effectively to reduce stress.",
+        "Practice mindfulness in everyday activities to stay present.",
+        "Explore relaxation techniques such as yoga or tai chi.",
+        "Develop a support network of friends, family, or support groups.",
+        "Engage in regular exercise to release endorphins and boost mood.",
+        "Consult with a financial advisor to manage financial stress effectively.",
+        "Take breaks and prioritize rest to prevent burnout."
+      ]
+    },
+    {
+      "tag": "support_resources",
+      "patterns": [
+        "Where can I find mental health resources?",
+        "Support groups near me",
+        "Online therapy options",
+        "Helpline for mental health",
+        "How to find a therapist",
+        "Counseling services available",
+        "Hotline for emotional support",
+        "Where to get professional help",
+        "Mental health apps",
+        "Community resources for mental health"
+      ],
+      "responses": [
+        "There are many resources available. Would you like me to provide you with some?",
+        "Here are some helplines you can reach out to for immediate support:",
+        "Connecting with a therapist can provide valuable support. Would you like guidance on finding one?",
+        "Support groups can offer a sense of community and understanding.",
+        "Mental health apps can provide tools for managing stress and tracking mood.",
+        "Community resources may include local clinics, nonprofits, or religious organizations.",
+        "Explore online therapy options for convenient and accessible mental health support.",
+        "Counseling services offer confidential support from trained professionals.",
+        "Reach out to hotlines for emotional support and crisis intervention.",
+        "Seeking professional help is an important step in prioritizing your mental health."
+      ]
+    },
+    {
+      "tag": "treatments",
+      "patterns": [
+        "What are the treatments for anxiety?",
+        "How is depression treated?",
+        "Can you explain therapy options?",
+        "Tell me about medication for mental health",
+        "What are effective treatments for insomnia?",
+        "Options for treating PTSD",
+        "Treatment for bipolar disorder",
+        "Therapeutic options for OCD",
+        "Managing addiction",
+        "Holistic approaches to mental health"
+      ],
+      "responses": [
+        "Treatment for anxiety often involves therapy, medication, or a combination of both.",
+        "Depression is typically treated with therapy, medication, or a combination. It's important to consult with a healthcare professional for personalized treatment.",
+        "Therapy options include cognitive-behavioral therapy (CBT), psychodynamic therapy, and more. The best approach depends on individual needs and preferences.",
+        "Medications for mental health can vary based on the condition. They are prescribed by healthcare professionals and should be taken as directed.",
+        "Effective treatments for insomnia include sleep hygiene practices, relaxation techniques, and sometimes medication under medical supervision.",
+        "Treatment for PTSD often involves therapy such as exposure therapy or eye movement desensitization and reprocessing (EMDR).",
+        "Managing bipolar disorder may include mood stabilizers, therapy, and lifestyle changes.",
+        "Therapeutic options for OCD include cognitive-behavioral therapy (CBT) and medication.",
+        "Managing addiction involves counseling, support groups, medication, and lifestyle changes.",
+        "Holistic approaches to mental health may include mindfulness, yoga, nutrition, and alternative therapies."
+      ]
+    },
+    {
+      "tag": "positive_affirmations",
+      "patterns": [
+        "I need encouragement",
+        "Give me a boost",
+        "Affirmations for self-esteem",
+        "Positive words",
+        "Help me feel better about myself",
+        "Encouraging messages",
+        "Words of encouragement",
+        "Boost my confidence"
+      ],
+      "responses": [
+        "You are strong and capable of overcoming challenges.",
+        "You are enough, just as you are.",
+        "Believe in yourself and your abilities.",
+        "You have the power to create positive change in your life.",
+        "Take one step at a time, and remember progress is progress.",
+        "Your resilience and courage are admirable.",
+        "You deserve happiness and success.",
+        "Embrace your unique qualities and talents."
+      ]
+    },
+    {
+      "tag": "crisis_support",
+      "patterns": [
+        "I'm in crisis",
+        "Help me now",
+        "Emergency support",
+        "Suicidal thoughts",
+        "I need immediate help",
+        "I'm feeling desperate",
+        "I'm feeling hopeless"
+      ],
+      "responses": [
+        "Please reach out to a crisis hotline or emergency services for immediate assistance. Here are some numbers:",
+        "It's important to talk to someone who can help you right away. Here are resources that can assist you:",
+        "You don't have to face this alone. Seek immediate help by calling emergency services or a crisis hotline.",
+        "If you are having suicidal thoughts, please call a suicide hotline or emergency services immediately.",
+        "Your safety is important. Reach out to someone you trust or a professional for support."
+      ]
+    },
+    {
+      "tag": "general_queries",
+      "patterns": [
+        "What is mental health?",
+        "Why is mental health important?",
+        "How can I improve my mental health?",
+        "How does stress affect mental health?",
+        "Difference between stress and anxiety",
+        "Signs of good mental health",
+        "How to support someone with mental health issues",
+        "Importance of self-care",
+        "Effects of exercise on mental health",
+        "What is therapy?",
+        "How does therapy work?",
+        "Benefits of counseling",
+        "Importance of sleep for mental health",
+        "Impact of nutrition on mental health",
+        "Role of genetics in mental health",
+        "What is mindfulness?",
+        "Benefits of mindfulness practice",
+        "How does meditation help?",
+        "Is yoga good for mental health?",
+        "Role of medication in mental health",
+        "What is cognitive-behavioral therapy (CBT)?",
+        "How does CBT help with anxiety?",
+        "What is psychodynamic therapy?",
+        "Difference between psychiatry and psychology"
+      ],
+      "responses": [
+        "Mental health refers to emotional, psychological, and social well-being. It affects how we think, feel, and act.",
+        "Prioritizing mental health is essential for overall well-being and quality of life.",
+        "Improving mental health can involve self-care practices, therapy, and lifestyle changes.",
+        "Stress can impact mental health by affecting mood and behavior. It's important to manage stress effectively.",
+        "While stress is a response to a specific stressor, anxiety involves persistent worry and fear.",
+        "Signs of good mental health include resilience, positive relationships, and effective coping skills.",
+        "Supporting someone with mental health issues involves listening, offering empathy, and encouraging them to seek professional help.",
+        "Self-care activities like exercise, relaxation techniques, and hobbies can positively impact mental health.",
+        "Therapy involves talking to a trained professional to explore thoughts, emotions, and behaviors in a supportive environment.",
+        "Therapy works by helping individuals gain insight, develop coping skills, and achieve personal growth.",
+        "Counseling offers a safe space to discuss challenges, gain perspective, and learn effective strategies.",
+        "Sleep plays a crucial role in mental health, impacting mood, cognitive function, and overall well-being.",
+        "Nutrition influences mental health by providing essential nutrients that support brain function and mood regulation.",
+        "Genetics can influence susceptibility to mental health disorders, but environmental factors also play a significant role.",
+        "Mindfulness involves paying attention to the present moment without judgment, promoting mental clarity and emotional balance.",
+        "Benefits of mindfulness practice include stress reduction, improved focus, and enhanced emotional resilience.",
+        "Meditation helps reduce stress, increase self-awareness, and promote relaxation and emotional well-being.",
+        "Yoga combines physical postures, breath control, and meditation to improve flexibility, strength, and mental clarity.",
+        "Medication may be prescribed to manage symptoms of mental health disorders, but it's important to use under medical supervision.",
+        "CBT is a therapeutic approach that helps individuals identify and change negative thought patterns and behaviors.",
+        "CBT is effective for anxiety by teaching coping strategies, challenging irrational beliefs, and promoting problem-solving skills.",
+        "Psychodynamic therapy explores unconscious thoughts and past experiences to understand current behavior and relationships.",
+        "Psychiatrists are medical doctors who specialize in diagnosing and treating mental health disorders with medication, while psychologists focus on therapy and counseling."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I have feedback",
+        "Improvements for the chatbot",
+        "Suggestions",
+        "Feedback on responses",
+        "How can you improve?"
+      ],
+      "responses": [
+        "Your feedback is valuable. Please share your thoughts with us so we can improve our services.",
+        "We appreciate your feedback. It helps us enhance our support for you.",
+        "Thank you for your suggestions. We'll consider them to make the chatbot more helpful."
+      ]
+    }
+  ]
+}
